@@ -1,0 +1,40 @@
+.introduce {
+    margin-top: 24px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.introduce h2 {
+    text-align: center;
+}
+
+.introduce div {
+    text-align: center;
+}
+
+.videoContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.videoContent p {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px; 
+}
+
+.videoContent p a {
+    color: black;
+    text-decoration: underline;
+    margin-left: 12px;
+}
+
+.desc p {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    font-size: 2rem;
+    color: #FFBA39;
+}

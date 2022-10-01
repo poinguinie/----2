@@ -5,19 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search</title>
+    <link rel="stylesheet" href="./styles/search.css">
+    <link rel="stylesheet" href="./styles/iframe.css">
 </head>
 <body>
-    <form action="#" method="get">
-        <input type="text" name="query" id="query">
-        <input type="submit" value="검색">
-    </form><hr>
-    <h4>추천 검색어</h4>
-    <ul>
-        <li>강아지 사료</li>
-        <li>고양이 사료</li>
-        <li>강아지 장난감</li>
-        <li>강아지 간식</li>
-        <li>고양이 습식 캔</li>
-    </ul>
+    <div class="search">
+        <label for="query"><img src="./images/search.svg" alt="searchIcon"></label>
+        <form action="#" method="get">
+            <input type="text" name="query" id="query" placeholder="검색어를 입력하세요">
+            <input type="submit" value="검색">
+        </form>
+    </div>
+    <div class="recommand">
+        <h4>추천 검색어</h4>
+        <ul>
+            <li>강아지 사료</li>
+            <li>고양이 사료</li>
+            <li>강아지 장난감</li>
+            <li>강아지 간식</li>
+            <li>고양이 습식 캔</li>
+            <li>더보기...</li>
+        </ul>
+    </div>
 </body>
 </html>

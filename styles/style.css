@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper .Header {
+    margin: 0 auto;
+    width: 70%;
+    height: 200px;
+    display: inline-flex;
+}
+
+.wrapper .Header span:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper .Header span:nth-child(1) img {
+    max-width: 120px;
+    max-height: 120px;
+    cursor: pointer;
+}
+
+.wrapper .Header span:nth-child(2) {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    align-items: center;
+    justify-content: end;
+}
+
+.wrapper .Header span:nth-child(2) a {
+    color: black;
+    text-decoration: none;
+    margin-left: 8px;
+    margin-right: 8px;
+    transition: 0.2s;
+    font-size: 1.8rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.wrapper .Header span:nth-child(2) a:hover {
+    color: #FFBA39;
+}
+
+.wrapper .Content {
+    width: 70%;
+    height: calc(92% - 200px);
+    margin: 0 auto;
+}
+
+.wrapper .Content iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper .Footer {
+    position: fixed;
+    width: 100%;
+    height: 8%;
+    margin: 0 auto;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: white;
+}

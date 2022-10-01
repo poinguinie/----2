@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+table {
+    margin-bottom: 60px;
+}
+
+table tr {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+table tr:nth-child(1) th {
+    padding: 20px;
+}
+
+table tr:nth-child(1) th h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #FFBA39;
+}
+
+table tr:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px;
+}
+
+table tr:nth-child(2) td {
+    cursor: pointer;
+    border: 1px solid white;
+    padding: 12px;
+}
+
+table tr:nth-child(2) td:hover {
+    border: 1px solid #E8E8E8;
+    /*box-shadow: 4px 4px 5px #E8E8E8, -4px -4px 5px #E8E8E8;*/
+    box-shadow: 0 0 5px 4px #E8E8E8;
+}
+
+.contentSources {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+}
+
+.contentSources .source {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+}
+
+.contentSources .source a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.contentSources .source a:hover {
+    color:brown;
+}

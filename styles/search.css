@@ -1,0 +1,94 @@
+.search {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 320px;
+    height: 50px;
+    border: 1px solid #B6B6B6;
+    border-radius: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.search img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.search form {
+    display: inline-flex;
+    align-items: center;
+}
+
+.search form input[type=text] {
+    margin: 0 8px;
+    border: 1px solid #B6B6B6;
+    padding-left: 8px; 
+    border-radius: 8px;
+}
+
+.search form input[type=text] {
+    height: 30px;
+}
+
+.search form input[type=text]:focus {
+    border: 1px solid #FFBA39;
+}
+
+.search form input[type=submit] {
+    width: 60px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid #A6A6A6;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.search form input[type=submit]:hover {
+    background-color: #A6A6A6;
+    color: white;
+}
+
+.recommand h4 {
+    font-size: 1.2rem;
+    color: #8B8B8B;
+    margin-bottom: 20px;
+}
+
+.recommand ul {
+    list-style-type: none;
+    margin-top: 8px;
+    margin-bottom: 0;
+    padding: 4px;
+}
+
+.recommand ul li {
+    margin: 8px 0;
+    padding: 4px;
+    text-align: center;
+    width: 120px;
+    color: #A6A6A6;
+    border: 1px solid #A6A6A6;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.recommand ul li:hover {
+    background-color: #A6A6A6;
+    color: white;
+}
+
+.recommand ul li:last-child {
+    color: #FFBA39;
+    border: 1px solid #FFBA39;
+}
+
+.recommand ul li:last-child:hover {
+    background-color: #FFBA39;
+    color: white;
+}
